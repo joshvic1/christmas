@@ -1,0 +1,178 @@
+.card {
+  background: rgba(255, 255, 255, 0.55);
+
+  -webkit-backdrop-filter: blur(12px);
+
+  border-radius: 22px;
+  padding: 22px;
+}
+
+/* ---------------------------
+   PROGRESS DOTS
+---------------------------- */
+.progressTopo {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.dot,
+.dotActive {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  font-size: 14px;
+  font-weight: 600;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dot {
+  background: rgba(0, 0, 0, 0.08);
+  color: #333;
+}
+
+.dotActive {
+  background: rgba(0, 102, 255, 0.15);
+  border: 1px solid rgba(0, 102, 255, 0.25);
+  color: #004bad;
+}
+
+/* ---------------------------
+   BODY
+---------------------------- */
+.body {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.h {
+  font-size: 18px;
+  font-weight: 600;
+  color: #111;
+  margin-bottom: 5px;
+}
+
+/* ---------------------------
+   INPUTS
+---------------------------- */
+.input {
+  padding: 14px;
+  width: 100%;
+  border-radius: 14px;
+
+  background: rgba(255, 255, 255, 0.65);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+
+  font-size: 15px;
+  outline: none;
+}
+
+.input:focus {
+  border: 1px solid rgba(0, 102, 255, 0.4);
+  box-shadow: 0 0 0 3px rgba(0, 102, 255, 0.15);
+}
+
+/* ---------------------------
+   BUTTONS
+---------------------------- */
+.primary {
+  padding: 14px;
+  width: 100%;
+  border: none;
+  border-radius: 16px;
+
+  background: #005eff;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+
+  transition: 0.2s;
+}
+
+.primary:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+.primary:active {
+  transform: scale(0.98);
+}
+
+.ghost {
+  padding: 14px;
+  width: 100%;
+  border-radius: 16px;
+  background: rgba(0, 0, 0, 0.07);
+  border: none;
+  color: #111;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+/* ---------------------------
+   CALCULATING SPINNER
+---------------------------- */
+.calc {
+  margin-top: 12px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 14px;
+  color: #333;
+}
+
+.dotSpin {
+  width: 18px;
+  height: 18px;
+  border: 3px solid rgba(0, 102, 255, 0.2);
+  border-top-color: #0066ff;
+  border-radius: 50%;
+  animation: spin 0.7s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* ---------------------------
+   RESULT BOX
+---------------------------- */
+.resultBox {
+  padding: 18px;
+  border-radius: 18px;
+
+  background: rgba(255, 255, 255, 0.55);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+
+  text-align: center;
+}
+
+.bigNotice {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 8px;
+  color: #004bad;
+}
+
+.prize {
+  font-size: 17px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #111;
+}
+
+.hint {
+  font-size: 13px;
+  color: #555;
+  margin-bottom: 15px;
+}

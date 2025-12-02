@@ -1,0 +1,112 @@
+/* GLOBAL */
+.page {
+  min-height: 100vh;
+  padding-bottom: 30px;
+  background: #f5f7fa;
+  font-family: "Inter", sans-serif;
+}
+
+/* HEADER */
+.header {
+  width: 100%;
+  padding: 20px 0;
+  text-align: center;
+  backdrop-filter: blur(20px);
+  background: rgba(255, 255, 255, 0.4);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.badge {
+  width: 70px;
+  margin-bottom: 8px;
+}
+
+.brand {
+  font-size: 18px;
+  font-weight: 600;
+  color: #111;
+}
+
+/* MAIN */
+.main {
+  max-width: 420px;
+  margin: 20px auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+/* GLASS CARD */
+.glassCard {
+  padding: 20px;
+  border-radius: 20px;
+
+  background: rgba(255, 255, 255, 0.55);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+}
+
+/* PRIZE CARD */
+.prizeCard {
+  padding: 25px;
+  border-radius: 22px;
+
+  background: rgba(0, 102, 255, 0.15);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(0, 102, 255, 0.25);
+  color: #003e9b;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0, 102, 255, 0.12);
+}
+
+.prizeTitle {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.prizeAmount {
+  font-size: 38px;
+  font-weight: 800;
+  margin-top: 10px;
+}
+
+.prizeNote {
+  font-size: 13px;
+  margin-top: 5px;
+  opacity: 0.75;
+}
+
+/* COMMENTS */
+.commentTitle {
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: #111;
+}
+
+/* RESET BUTTON */
+.resetBtn {
+  width: 100%;
+  padding: 12px;
+  background: rgba(0, 0, 0, 0.07);
+  color: #111;
+  border: none;
+  border-radius: 14px;
+  font-size: 14px;
+}
+
+.resetBtn:active {
+  opacity: 0.5;
+}
+
+/* FOOTER */
+.footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 13px;
+  color: #555;
+}

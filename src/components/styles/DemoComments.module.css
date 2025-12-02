@@ -1,0 +1,113 @@
+.box {
+  width: 100%;
+  padding: 16px;
+  border-radius: 20px;
+
+  background: rgba(255, 255, 255, 0.55);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.07);
+}
+
+.header {
+  font-size: 15px;
+  font-weight: 600;
+  color: #222;
+  margin-bottom: 12px;
+}
+
+/* Scroll List */
+.list {
+  max-height: 220px;
+  overflow-y: auto;
+  padding-right: 5px;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(0, 0, 0, 0.1) transparent;
+}
+
+.list::-webkit-scrollbar {
+  width: 6px;
+}
+
+.list::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+}
+
+/* Comment Item */
+.item {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 18px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+/* Avatar */
+.avatar {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+
+  background: rgba(0, 102, 255, 0.15);
+  border: 1px solid rgba(0, 102, 255, 0.25);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 14px;
+  font-weight: 600;
+  color: #004bad;
+}
+
+/* Right Side */
+.right {
+  flex: 1;
+}
+
+.topRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.name {
+  font-size: 14px;
+  font-weight: 600;
+  color: #111;
+}
+
+.time {
+  font-size: 12px;
+  color: #666;
+}
+
+.text {
+  font-size: 14px;
+  color: #333;
+  margin: 6px 0 8px;
+  line-height: 1.4;
+}
+
+/* Actions (Like, Reply) */
+.actions {
+  display: flex;
+  gap: 14px;
+}
+
+.act {
+  background: none;
+  border: none;
+  font-size: 13px;
+  font-weight: 500;
+  color: #0066ff;
+  padding: 0;
+  cursor: pointer;
+}
+
+.act:active {
+  opacity: 0.6;
+}

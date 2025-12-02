@@ -1,0 +1,60 @@
+.wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+/* ---------------------------
+   SHARE BUTTON
+---------------------------- */
+.shareBtn {
+  padding: 14px 18px;
+  width: 100%;
+  border: none;
+  border-radius: 18px;
+
+  background: rgba(0, 180, 0, 0.18);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+
+  border: 1px solid rgba(0, 180, 0, 0.22);
+  color: #064d00;
+  font-size: 15px;
+  font-weight: 600;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+  cursor: pointer;
+  transition: 0.25s ease;
+}
+
+.shareBtn::before {
+  content: "📤";
+  font-size: 16px;
+}
+
+.shareBtn:hover {
+  background: rgba(0, 180, 0, 0.25);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 18px rgba(0, 180, 0, 0.15);
+}
+
+.shareBtn:active {
+  transform: scale(0.97);
+}
+
+/* ---------------------------
+   DESCRIPTION
+---------------------------- */
+.small {
+  font-size: 13px;
+  color: #444;
+  opacity: 0.8;
+  line-height: 1.4;
+}
