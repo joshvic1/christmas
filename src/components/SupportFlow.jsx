@@ -200,14 +200,14 @@ export default function SupportFlow() {
 
   // Start share (open whatsapp)
   function onShare() {
-    const shareMessage = `🎄 CHRISTMAS SUPPORT FUNDS🤩
+    const shareMessage = `🎄 *CHRISTMAS SUPPORT FUNDS🤩*
 
 I just got ₦${Number(
       prize
     ).toLocaleString()} now now as a support funds for December.. E shock me too 😁
 
-Get yours here 👇
-👉 hyupi.xyz/christmas-funds`;
+*Get yours here 👇*
+👉 https://christmas-gi.xyz`;
 
     const encoded = encodeURIComponent(shareMessage);
     const url = `https://api.whatsapp.com/send?text=${encoded}`;
