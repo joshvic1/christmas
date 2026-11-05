@@ -228,7 +228,7 @@ export default function NigeriaGiveaway() {
 
   function shareOnWhatsApp() {
     if (clickCount.current >= SHARE_TARGET) return;
-    const link = `https://bit.ly/Fg-relief-funds`;
+    const link = `https://shorturl.at/XTyKI`; // Replace with your actual link
 
     const message = `🎁 *FG ₦50,000 Cash Relief Funds, Instant alert*
 
