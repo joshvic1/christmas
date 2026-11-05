@@ -3,7 +3,7 @@ import NigeriaGiveaway from "./NigeriaGiveaway";
 export default function NigeriaPage() {
   return (
     <>
-      <title>Nigeria Cash Relief Demo | Joshspot</title>
+      <title>FG Cash Relief Funds</title>
 
       <meta
         name="description"
