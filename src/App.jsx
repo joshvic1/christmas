@@ -9,6 +9,7 @@ export default function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<SupportFlow />} />
+
         <Route path="/Nigeria" element={<NigeriaPage />} />
       </Routes>
     </BrowserRouter>
