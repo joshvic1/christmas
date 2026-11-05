@@ -1,11 +1,27 @@
 import NigeriaGiveaway from "./NigeriaGiveaway";
 
-export const metadata = {
-  title: "FG Relief Funds",
-  description:
-    "Claim between 10k - 100k in relief funds. See whether you qualify",
-};
-
 export default function NigeriaPage() {
-  return <NigeriaGiveaway />;
+  return (
+    <>
+      <title>Nigeria Cash Relief Demo | Joshspot</title>
+
+      <meta
+        name="description"
+        content="Explore the Joshspot Nigeria cash relief-themed entertainment demo. No actual government grant or cash payment is offered."
+      />
+
+      <meta property="og:title" content="Nigeria Cash Relief Demo | Joshspot" />
+
+      <meta
+        property="og:description"
+        content="A fictional cash relief-themed experience created for entertainment."
+      />
+
+      <meta property="og:type" content="website" />
+
+      <meta property="og:url" content="https://yourdomain.com/Nigeria" />
+
+      <NigeriaGiveaway />
+    </>
+  );
 }
